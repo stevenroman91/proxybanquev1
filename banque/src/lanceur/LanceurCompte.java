@@ -49,7 +49,9 @@ public class LanceurCompte {
 		
 		client1.creerCompte();
 		
+		Compte c=client1.getC();
 		
+		System.out.println(c);
 		
 	}
 
